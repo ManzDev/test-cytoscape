@@ -1,0 +1,25 @@
+{
+  "name": "test-cytoscape",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "rm -rf dist && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-manzdev": "^0.0.2",
+    "gh-pages": "^5.0.0",
+    "stylelint": "^15.9.0",
+    "stylelint-config-manzdev": "^0.0.8",
+    "vite": "^4.3.9"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "cytoscape": "^3.25.0"
+  }
+}
